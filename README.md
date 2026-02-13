@@ -1,19 +1,6 @@
-Bet. Short + human.
-
-
----
-
 ☕ cafetrack
-
-I eat at the same café every day and pay later.
-Paper logs kept disappearing. So I built this.
-
-cafetrack is a minimal CLI ledger to track what you owe.
-
-No deps. Single binary. Fast.
-
-
----
+I eat at the same Cafe every day and pay later
+cafetrack is a minimal CLI ledger to track caafe debts
 
 Commands
 
@@ -27,22 +14,8 @@ cafetrack passwd
 cafetrack wipe
 cafetrack help
 
-
----
-
 How it works
 
 Every item gets an ID
-
-Prices stored in cents (no float bugs)
-
-Partial payments use FIFO logic
-
 Balance rolls over automatically
-
-Everything stored in ~/.cafetrack/
-
-
-Built because paper is unreliable and apps are bloated.
-
-Simple. Fast. Done.
+Everything stored in ~/.cafetrack//
